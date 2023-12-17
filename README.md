@@ -57,7 +57,7 @@ Now, we are ready to dive into the tutorials.
 
 All are documented in the Notebooks in the research folder.
 
-References:
+## References
 
 - Sam Witeeven: https://www.youtube.com/watch?v=HN96QDFBD0g&t=24s&ab_channel=SamWitteveen
 - Google Generative AI Tutorials: https://cloud.google.com/vertex-ai/docs/generative-ai/tutorials
