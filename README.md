@@ -16,8 +16,20 @@ This tutorial is intended for getting hands on quickly with Gemini Pro and Gemin
 
 ### Creating Google Service Account
 
+- We will be requiring this account for Video Question and Answering.
 - Create Google Cloud Service Account - with the role of Vertex AI Adminstrator.
 - Once the service account is created, click on that service account, followed by click on Keys, Add Key, select JSON and click on Create.
+
+### `.env` file
+
+`.env` file should have following content. It should be in the same folder as this README.md file.
+
+```bash
+GOOGLE_AI_STUDIO="API_KEY_OBTAINED_FROM_GOOGLE_AI_STUDIO"
+GOOGLE_APPLICATION_CREDENTIALS=relative_location_path_of_json_file_that_includes_service_account_details
+GEMINI_PRO="gemini-pro"
+GEMINI_PRO_VISION="gemini-pro-vision"
+```
 
 ## Creating Conda Environment
 
@@ -38,6 +50,8 @@ pip install -r requirements.txt
 ```bash
 conda activate google_gemini_environment
 ```
+
+Now, we are ready to dive into the tutorials.
 
 ## Tutorials
 
